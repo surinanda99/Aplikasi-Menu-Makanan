@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgfotodtl"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        app:srcCompat="@drawable/cikong" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/txtNamadtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Makanan" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp" />
+
+    <TextView
+        android:id="@+id/txtdeskripsidtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Makanan" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="17dp" />
+
+    <TextView
+        android:id="@+id/txtHargadtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga" />
+</LinearLayout>
